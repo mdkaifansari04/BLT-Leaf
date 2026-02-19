@@ -6,7 +6,7 @@ compatibility_flags = ["python_workers"]
 [[d1_databases]]
 binding = "DB"
 database_name = "pr_tracker"
-database_id = "014201e7-6c0e-4b6a-8c0e-c53d18305dca"
+database_id = "e644d584-ce65-47dd-81b7-2504cf83d92f"
 
 [vars]
 ENVIRONMENT = "production"
@@ -25,7 +25,7 @@ name = "pr-tracker-dev"
 [[env.dev.d1_databases]]
 binding = "DB"
 database_name = "pr_tracker_dev"
-database_id = "DEV_DATABASE_ID"
+database_id = "e644d584-ce65-47dd-81b7-2504cf83d92f"
 
 
 [observability]
